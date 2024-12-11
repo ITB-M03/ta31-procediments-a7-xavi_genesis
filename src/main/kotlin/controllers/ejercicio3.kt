@@ -48,7 +48,7 @@ fun comprovarPassword(msg: String, password: String, scan: Scanner): Boolean {
 fun determinarSiEsValido(correcto: Boolean): String {
     var resultado: String
     if (correcto) resultado = "¡Contraseña correcta!"
-     else resultado = "Has agotado los 3 intentos, inténtalo de nuevo"
+    else resultado = "Has agotado los 3 intentos, inténtalo de nuevo"
     return resultado
 }
 

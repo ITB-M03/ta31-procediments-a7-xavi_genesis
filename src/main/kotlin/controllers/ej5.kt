@@ -7,6 +7,46 @@ fun main(){
 
 }
 
+class pila (val capacitat: Int = 10) {
+    var piles = (Array(capacitat) { 0 })
+    var primer = -1
+
+
+    fun push(numero: Int): Boolean {
+        var resultado: Boolean
+        if (numero >= capacitat - 1) {
+            piles += numero
+            resultado = true
+        } else {
+            println("La pila es buida")
+            resultado = false
+        }
+        return resultado
+    }
+
+    fun pop(numero: Int): Boolean {
+        var resultado: Boolean
+        if (piles.size >= 11) {
+            resultado = false
+        } else {
+            piles.drop(numero)
+            resultado = true
+        }
+        return resultado
+    }
+
+    fun mostrar(): Boolean{
+        var resultado: Boolean
+        if (piles.isEmpty()){ println("La pila está vacía")
+            resultado = false}
+        else {println(piles.toString())
+            resultado = true}
+        return resultado
+    }
+
+
+}
+
 fun mostrarMenu() {
 
     println("1.Afegir numero ")

@@ -1,91 +1,102 @@
-package org.example.controllers
 import java.util.*
 
-fun main(){
-    val scanner= Scanner(System.`in`)
-    menu()
-
+fun main() {
+    val scanner = Scanner(System.`in`)
+    val pila = Pila()
+    menu(pila, scanner)
 }
-
-class pila (val capacitat: Int = 10) {
-    var piles = (Array(capacitat) { 0 })
+/**
+ * Classe pila amb les seves respectives funcions
+ *
+ * @property capacitat La capacitat màxima de la pila
+ */
+class Pila(val capacitat: Int = 10) {
+    val piles = Array(capacitat) { 0 }
+    /**
+     * Índex que és l'últim element afegit a la pila, Si és -1, la pila està buida
+     */
     var primer = -1
 
-
-    fun push(numero: Int): Boolean {
-        var resultado: Boolean
-        if (numero >= capacitat - 1) {
-            piles += numero
-            resultado = true
+    /**
+     * Afegeix un número a la pila.
+     *
+     * @param numero El número que es vol afegir.
+     * Si la pila està plena mostra un missatge "la pila és plena!"
+     */
+    fun push(numero: Int) {
+        if (primer < capacitat - 1) {
+            primer++
+            piles[primer] = numero
         } else {
-            println("La pila es buida")
-            resultado = false
+            println("La pila és plena!")
         }
-        return resultado
     }
 
-    fun pop(numero: Int): Boolean {
-        var resultado: Boolean
-        if (piles.size >= 11) {
-            resultado = false
+    /**
+     * Elimina l'últim número afegit
+     *Si la pila està buida mostra un missatge "la pila és buida!"
+     */
+    fun pop() {
+        if (primer >= 0) {
+            piles[primer] = 0 // Opcional: buidar l'última posició
+            primer--
         } else {
-            piles.drop(numero)
-            resultado = true
+            println("La pila és buida!")
         }
-        return resultado
     }
 
-    fun mostrar(): Boolean{
-        var resultado: Boolean
-        if (piles.isEmpty()){ println("La pila está vacía")
-            resultado = false}
-        else {println(piles.toString())
-            resultado = true}
-        return resultado
-    }
-
-
-}
-
-fun mostrarMenu() {
-
-    println("1.Afegir numero ")
-    println("2.Treure número ")
-    println("3.Mostrar contingut de la pila ")
-    println("4. Sortir")
-    print("Escull una opcio:")
-}
-fun menu(){
-    val scanner= Scanner(System.`in`)
-    mostrarMenu()
-    var continuar= true
-
-    while(continuar){
-
-
-        val opcio= scanner.nextInt()
-        when(opcio){
-            1-> print("Afegeix el numero:")
-            2-> print("hgh")
-            3-> print("La pila esta")
-            4-> {
-                println("Adeu.")
-                continuar=false
-
+    /**
+     * Mostra els elements actuals de la pila.
+     * Si la pila està buida, mostra un missatge "La pila és buida!"
+     */
+    fun mostrar() {
+        if (primer == -1) {
+            println("La pila és buida!")
+        } else {
+            for (i in 0..primer) {
+                print("${piles[i]} ")
             }
-            else-> {
-                println("Valor invadid")
+            println()
+        }
+    }
+}
+
+/**
+ * Imprimeix un Menú d'opcions
+ */
+fun mostrarMenu() {
+    println("Qué operació vols fer?")
+    println("1. Afegir número ")
+    println("2. Treure número ")
+    println("3. Mostrar contingut de la pila")
+    println("4. Sortir")
+    print("Escull una opció: ")
+}
+
+/**
+ * Menú que gestiona les opcions disponibles
+ *
+ * @param pila la clase pila
+ * @param scanner scanner per llegir opcions i numeros a afegir
+ */
+fun menu(pila: Pila, scanner: Scanner) {
+    var continuar = true
+    while (continuar) {
+        mostrarMenu()
+        val opcio = scanner.nextInt()
+        when (opcio) {
+            1 -> {
+                print("Afegeix el numero: ")
+                val numero = scanner.nextInt()
+                pila.push(numero)
+            }
+            2 -> pila.pop()
+            3 -> pila.mostrar()
+            4 -> {
+                println("Adeu!")
                 continuar = false
             }
-
+            else -> println("Valor inválid")
         }
-
     }
-
-
 }
-
-
-
-
-

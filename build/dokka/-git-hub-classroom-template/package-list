@@ -1,0 +1,71 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/Ej2Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ej2-kt/index.html
+$dokka.location:controllers/Ej2Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej2-kt/main.html
+$dokka.location:controllers/Ej2Kt/obtenirRoman/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej2-kt/obtenir-roman.html
+$dokka.location:controllers/Ej2Kt/roman/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej2-kt/roman.html
+$dokka.location:controllers/Ej5Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ej5-kt/index.html
+$dokka.location:controllers/Ej5Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej5-kt/main.html
+$dokka.location:controllers/Ej5Kt/menu/#controllers.Pila#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej5-kt/menu.html
+$dokka.location:controllers/Ej5Kt/mostrarMenu/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ej5-kt/mostrar-menu.html
+$dokka.location:controllers/Ejercicio1Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/index.html
+$dokka.location:controllers/Ejercicio1Kt/abrirScaner/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/abrir-scaner.html
+$dokka.location:controllers/Ejercicio1Kt/buscarFechaIVA/#java.time.LocalDate/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/buscar-fecha-i-v-a.html
+$dokka.location:controllers/Ejercicio1Kt/calcularIVA/#kotlin.Double#kotlin.String#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/calcular-i-v-a.html
+$dokka.location:controllers/Ejercicio1Kt/cerrarScaner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/cerrar-scaner.html
+$dokka.location:controllers/Ejercicio1Kt/imprimiResutado/#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/imprimi-resutado.html
+$dokka.location:controllers/Ejercicio1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/main.html
+$dokka.location:controllers/Ejercicio1Kt/pedirFecha/#kotlin.String#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/pedir-fecha.html
+$dokka.location:controllers/Ejercicio1Kt/pedirPrecio/#kotlin.String#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/pedir-precio.html
+$dokka.location:controllers/Ejercicio1Kt/pedirTipoIVA/#kotlin.String#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio1-kt/pedir-tipo-i-v-a.html
+$dokka.location:controllers/Ejercicio3Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/index.html
+$dokka.location:controllers/Ejercicio3Kt/abrirScaner/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/abrir-scaner.html
+$dokka.location:controllers/Ejercicio3Kt/cerrarScaner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/cerrar-scaner.html
+$dokka.location:controllers/Ejercicio3Kt/comprovarPassword/#kotlin.String#kotlin.String#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/comprovar-password.html
+$dokka.location:controllers/Ejercicio3Kt/determinarSiEsValido/#kotlin.Boolean/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/determinar-si-es-valido.html
+$dokka.location:controllers/Ejercicio3Kt/imprimirResultado/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/imprimir-resultado.html
+$dokka.location:controllers/Ejercicio3Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/main.html
+$dokka.location:controllers/Ejercicio3Kt/validarSuperusuari/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio3-kt/validar-superusuari.html
+$dokka.location:controllers/Ejercicio4Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio4-kt/index.html
+$dokka.location:controllers/Ejercicio4Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio4-kt/main.html
+$dokka.location:controllers/Ejercicio4Kt/resultat/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio4-kt/resultat.html
+$dokka.location:controllers/Ejercicio4Kt/titol/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio4-kt/titol.html
+$dokka.location:controllers/IVA.IVA1986///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a1986/index.html
+$dokka.location:controllers/IVA.IVA1992///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a1992/index.html
+$dokka.location:controllers/IVA.IVA1993///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a1993/index.html
+$dokka.location:controllers/IVA.IVA1995///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a1995/index.html
+$dokka.location:controllers/IVA.IVA2010///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a2010/index.html
+$dokka.location:controllers/IVA.IVA2012///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-git-hub-classroom-template/controllers/-i-v-a/-i-v-a2012/index.html
+$dokka.location:controllers/IVA///PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/index.html
+$dokka.location:controllers/IVA/getDataIniciADate/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-data-inici-a-date.html
+$dokka.location:controllers/IVA/getEntries/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-entries.html
+$dokka.location:controllers/IVA/getExempt/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-exempt.html
+$dokka.location:controllers/IVA/getGeneral/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-general.html
+$dokka.location:controllers/IVA/getReduit/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-reduit.html
+$dokka.location:controllers/IVA/getSuperReduit/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/get-super-reduit.html
+$dokka.location:controllers/IVA/valueOf/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/value-of.html
+$dokka.location:controllers/IVA/values/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-i-v-a/values.html
+$dokka.location:controllers/Pila///PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/index.html
+$dokka.location:controllers/Pila/Pila/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/-pila.html
+$dokka.location:controllers/Pila/getCapacitat/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/get-capacitat.html
+$dokka.location:controllers/Pila/getPiles/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/get-piles.html
+$dokka.location:controllers/Pila/getPrimer/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/get-primer.html
+$dokka.location:controllers/Pila/mostrar/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/mostrar.html
+$dokka.location:controllers/Pila/pop/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/pop.html
+$dokka.location:controllers/Pila/push/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/push.html
+$dokka.location:controllers/Pila/setPrimer/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-pila/set-primer.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/readSomething/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-something.html
+controllers
+interfaces
+models
+utilities
+

@@ -1,4 +1,4 @@
-package org.example.controllers
+package controllers
 import java.util.*
 fun main(){
     print("Posa un numero :")

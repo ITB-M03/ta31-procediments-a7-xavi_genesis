@@ -11,6 +11,7 @@ fun main() {
 }
 
 /**
+ * @author sergionavas
  * mostra un text centrat en una línia de 80 caracters
  * @param text el text que es vol centrar
  */

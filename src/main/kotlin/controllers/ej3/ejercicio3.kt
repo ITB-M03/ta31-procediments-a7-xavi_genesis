@@ -1,13 +1,13 @@
-package controllers
+package controllers.ej3
 
 import java.util.Scanner
 
 fun main() {
-    val scan = abrirScaner()
+    val scan = controllers.ej1.abrirScaner()
     val contrasenya = validarSuperusuari(scan)
     val determinar = determinarSiEsValido(contrasenya)
     imprimirResultado(determinar)
-    cerrarScaner(scan)
+    controllers.ej1.cerrarScaner(scan)
 }
 
 /**

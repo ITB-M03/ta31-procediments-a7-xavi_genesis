@@ -1,6 +1,5 @@
 package models
-import controllers.comprovarPassword
-import controllers.determinarSiEsValido
+import controllers.ej3.determinarSiEsValido
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 

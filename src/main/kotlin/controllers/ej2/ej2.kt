@@ -1,4 +1,4 @@
-package controllers
+package controllers.ej2
 import java.util.*
 fun main(){
     print("Posa un numero :")

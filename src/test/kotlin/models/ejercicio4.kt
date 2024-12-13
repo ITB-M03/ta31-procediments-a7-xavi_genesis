@@ -1,5 +1,4 @@
-import controllers.resultat
-import controllers.main
+import controllers.ej4.resultat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 

@@ -1,4 +1,4 @@
-package controllers
+package controllers.ej4
 import java.util.Scanner
 
 fun main() {
